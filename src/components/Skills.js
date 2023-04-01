@@ -9,13 +9,13 @@ import kvm from "../assets/skills/kvm.svg"
 import linux from "../assets/skills/linux.svg"
 import python from "../assets/skills/python.svg"
 import reactIcon from "../assets/skills/react.svg"
-import tailwind from "../assets/skills/tailwind.svg"
-import mikrotik from "../assets/skills/mikrotik.svg"
+// import tailwind from "../assets/skills/tailwind.svg"
+// import mikrotik from "../assets/skills/mikrotik.svg"
 import kubernetes from "../assets/skills/kubernetes.svg"
 import ansible from "../assets/skills/ansible.svg"
 import windows from "../assets/skills/windows.svg"
 import react from "../assets/skills/react.svg"
-import cisco from "../assets/skills/cisco.svg"
+// import cisco from "../assets/skills/cisco.svg"
 import docker from "../assets/skills/docker.svg"
 import git from "../assets/skills/git.svg"
 import express from "../assets/skills/express.svg"
@@ -39,21 +39,21 @@ export default function Skills() {
 
             <div className="mt-4">
                 <Slider {...settings}>
-                <SkillCard name="linux" experience="1 years" img={linux} />
-                <SkillCard name="bash" experience="1 years" img={bash} />
-                <SkillCard name="python" experience="1 years" img={python} />
-                <SkillCard name="javascript" experience="1 years" img={javascript} />
-                <SkillCard name="react" experience="1 years" img={reactIcon} />
-                <SkillCard name="tailwind" experience="1 years" img={tailwind} />
-                <SkillCard name="kvm" experience="1 years" img={kvm} />
-                <SkillCard name="mikrotik" experience="1 years" img={mikrotik} />
+                <SkillCard name="linux" experience="2 years" img={linux} />
+                <SkillCard name="shell" experience="2 years" img={bash} />
+                <SkillCard name="python" experience="2 years" img={python} />
+                <SkillCard name="javascript" experience="2 years" img={javascript} />
+                <SkillCard name="react" experience="2 years" img={reactIcon} />
+                {/* <SkillCard name="tailwind" experience="1 years" img={tailwind} /> */}
+                <SkillCard name="virtualization" experience="2 years" img={kvm} />
+                {/* <SkillCard name="mikrotik" experience="1 years" img={mikrotik} /> */}
                 <SkillCard name="kubernetes" experience="1 years" img={kubernetes} />
-                <SkillCard name="ansible" experience="1 years" img={ansible} />
-                <SkillCard name="windows" experience="1 years" img={windows} />
-                <SkillCard name="react" experience="1 years" img={react} />
-                <SkillCard name="cisco" experience="1 years" img={cisco} />
+                <SkillCard name="ansible" experience="2 years" img={ansible} />
+                <SkillCard name="windows" experience="2 years" img={windows} />
+                <SkillCard name="react" experience="2 years" img={react} />
+                {/* <SkillCard name="cisco" experience="1 years" img={cisco} /> */}
                 <SkillCard name="docker" experience="1 years" img={docker} />
-                <SkillCard name="git" experience="1 years" img={git} />
+                <SkillCard name="git" experience="3 years" img={git} />
                 <SkillCard name="express" experience="1 years" img={express} />
                 <SkillCard name="gitlab" experience="1 years" img={gitlab} />
                 </Slider>

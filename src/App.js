@@ -12,7 +12,7 @@ import 'aos/dist/aos.css';
 
 function App() {
     useEffect(() => {
-      document.title = 'Damasukma Trihanandi';
+      document.title = 'Tu Lan (Bryant)';
       AOS.init();
     }, []);
   return (
@@ -28,3 +28,20 @@ function App() {
 }
 
 export default App;
+
+
+// eslint-disable-next-line no-unused-vars
+let me = {
+  name: "Tu Lan",
+  programming_language: ["C++", "Java", "Python", "JavaScript"],
+  cloud: ["AWS", "GCP", "Azure"],
+  devops: ["Ansible", "Terraform", "k8s", "Jenkins", "CircleCI"],
+  web: ["React", "Angular", "NextJS", "NodeJS", "Laravel", "Ruby on Rails"],
+  message: "welcome to my portfolio page :)"
+}
+
+
+
+
+
+
