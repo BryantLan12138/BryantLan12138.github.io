@@ -28,7 +28,7 @@ export default function Hiro () {
                     <h1 className="text-xl text-gray-400">Hi, I'm</h1>
                     <h1 className="text-2xl font-bold">Tu Lan</h1>
                     <p className="text-xl font-bold text-gray-300">DevOps Engineer</p>
-                    <p className="text-md font-light text-gray-400 ">Enthusiastic and motivated self-learning in Information Technology. Interested in exploring about DevOps skills, including but not limited to K8s, container, microservice, Cloud infrastructure and all cutting-edge productions. Now I am looking for more experience in my field.</p>
+                    <p className="text-md font-light text-gray-400 ">Enthusiastic and motivated self-learning in Information Technology, current DevOps Engineer at Honeywell Sine. Interested in exploring about DevOps skills, including but not limited to K8s, container, microservice, Cloud infrastructure and all cutting-edge productions. Now I am looking for more experience in my field.</p>
                 </div>
                 <span className='mt-2 block'>Contact Me <FontAwesomeIcon className='ml-2' icon={faCircleArrowDown}/> </span>
                     
