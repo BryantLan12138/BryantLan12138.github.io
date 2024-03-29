@@ -31,13 +31,25 @@ export default App;
 
 
 // eslint-disable-next-line no-unused-vars
+
 let me = {
   name: "Tu Lan",
-  programming_language: ["C++", "Java", "Python", "JavaScript"],
-  cloud: ["AWS", "GCP", "Azure"],
-  devops: ["Ansible", "Terraform", "k8s", "Jenkins", "CircleCI"],
-  web: ["React", "Angular", "NextJS", "NodeJS", "Laravel", "Ruby on Rails"],
-  message: "welcome to my portfolio page :)"
+  programming_language: ["C#", "Python", "JavaScript", "C++", "Java"],
+  dev: ["React", "Node.js", ".Net", "aspnet"],
+  operating_system: ["Windows", "Ubuntu/Debian"],
+  imperative_scripting: ["Powershell", "CLI", "Bash"],
+  vcs: ["Azure DevOps", "Github"],
+  web_servers: ["Nginx", "Apache", "IIS"],
+  networking: ["OSI Model", "HTTP(S)", "SSL/TLS", "DNS", "SSH"],
+  cloud_providers: ["Azure", "AWS"],
+  serverless: ["Azure Functions", "Azure Logic Apps", "AWS Lambda"],
+  IaC: ["Azure Resource Manager", "Azure Bicep", "Terraform"],
+  configuration: ["Ansible"],
+  secret_management: ["Azure Key Vault", "Terraform Vault"],
+  containerization: ["Azure Container service", "Azure Kubernetes Services", "Azure Container Registry", "Docker"],
+  monitoring: ["Azure Monitor", "Azure Application Insights", "Azure Log Analytic Workspace"],
+  /* more important */
+  message: "Welcome to my portfolio :)"
 }
 
 
